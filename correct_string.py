@@ -15,7 +15,7 @@ def age_func():
 def email_func():
     while True:
         email = input("Enter your email: ")
-        if "@" in email and "." in email and email.endswith(".com"):
+        if "@" in email and email.endswith(".com"):
             return email
         print("enter a valid email with '@ and .com'")
 
